@@ -60,3 +60,16 @@ span {
   margin-bottom: 100px;
   background-position: left bottom;
 }
+#lt{
+  border-left: 5px solid;
+  border-image: linear-gradient(orange, red);
+  border-image-slice: 1;
+}
+#rt{
+  border-left: 5px solid;
+  border-image: linear-gradient(skyblue, gray);
+  border-image-slice: 1;
+}
+footer{
+  text-align: center;
+}
