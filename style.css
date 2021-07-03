@@ -14,11 +14,14 @@ span {
 .up {
   width: 50%;
   padding: 5px 20px;
+  font-size: 20px;
+  font-weight: 100;
 }
 .up img {
-  width: 90%;
+  width: 80%;
 }
 .hire {
+  font-size: 20px;
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-weight: 900;
@@ -29,4 +32,10 @@ span {
 .bp {
   background-image: url(image/top-banner.png);
   background-repeat: no-repeat;
+}
+.mid {
+  margin-top: 100px;
+  background-image: url(image/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
