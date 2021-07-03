@@ -2,18 +2,25 @@ body {
   font-family: "Comic Neue", cursive;
   margin: 0;
 }
-section {
+.flx {
   display: flex;
+  padding-left: 50px;
 }
 h1 {
   font-size: 60px;
+}
+h2{
+  font-size: 40px;
+}
+.exp h3{
+  color: cadetblue;
 }
 span {
   color: skyblue;
 }
 .up {
   width: 50%;
-  padding: 5px 20px;
+  padding: 5px 10px 5px 20px;
   font-size: 20px;
   font-weight: 100;
 }
@@ -32,10 +39,24 @@ span {
 .bp {
   background-image: url(image/top-banner.png);
   background-repeat: no-repeat;
+  margin-bottom: 100px;
 }
 .mid {
-  margin-top: 100px;
+  margin-bottom: 100px;
   background-image: url(image/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right bottom;
+}
+.exp{
+  width: 50%;
+  padding: 20px;
+  margin: 2%;
+  border-radius: 8px;
+  box-shadow: 10px 10px 40px skyblue;
+}
+.btm{
+  background-image: url(image/exp-bg.png);
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  background-position: left bottom;
 }
